@@ -10,7 +10,7 @@ import com.example.jlogger.util.ANSIColor;
 public class BasicErrorLoggerTest {
 
     String tag = "ERROR";
-    String mensage = "Test BasicErrorLogger format mensage";
+    String mensage = "Test format mensage";
     String foregroundColor = ANSIColor.RED;
 
     private final BasicErrorLogger logger = new BasicErrorLogger();

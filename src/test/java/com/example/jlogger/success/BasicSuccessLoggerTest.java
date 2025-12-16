@@ -1,4 +1,4 @@
-package com.example.jlogger.info;
+package com.example.jlogger.success;
 
 import static org.junit.jupiter.api.Assertions.assertAll;
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -7,13 +7,13 @@ import org.junit.jupiter.api.Test;
 
 import com.example.jlogger.util.ANSIColor;
 
-public class BasicInfoLoggerTest {
+public class BasicSuccessLoggerTest {
 
-    String tag = "INFO";
+    String tag = "SUCCESS";
     String mensage = "Test format mensage";
-    String foregroundColor = ANSIColor.BLUE;
+    String foregroundColor = ANSIColor.GREEN;
 
-    private final BasicInfoLogger logger = new BasicInfoLogger();
+    private final BasicSuccessLogger logger = new BasicSuccessLogger();
 
     @Test
     void shouldHaveCorrectValues() {
